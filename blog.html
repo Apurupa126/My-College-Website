@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="with=device-width, initial-scale=1.0">
+        <title> VIGNAN'S NIRULA WEBSITE DESIGN </title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <body>
+    <section class="sub-header"> 
+            <nav>
+                <a href="index.html"><img src="images/logo.png"> </a>
+                <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                   <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="course.html">COURSE</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+                </div>
+                <i class="fa fa-bars" onclick="showMenu()"></i>
+            </nav>
+            <h1>Our Certificate & Online Programs</h1>
+    </section>
+    <!-------------blog page content-------------->
+      <div class="row">
+        <div class="blog-left">
+            <img src="images/certificate.jpg">
+            <h2>Our Certificate & Online Programs</h2>
+            <p>At Vignan’s Nirula Institute of Technology and Science for Women, Guntur, certifications play a vital role in shaping the future of students by equipping them with practical skills and industry-recognized expertise. Alongside the regular academic curriculum, the institute offers a wide range of certificate and online programs to help students stay updated with the rapidly evolving technological landscape.</p>
+            <br>
+            <p>The certification programs cover diverse areas such as BTECH, MBA, MCA. These programs are designed in collaboration with industry partners, training platforms, and certified professionals, ensuring that the knowledge imparted is aligned with current market demands.</p>
+            <br>
+            <p>One of the unique features of certification programs at VNITSW is the integration of hands-on learning and real-world projects. Students are encouraged to work on live case studies, simulations, and industry-grade assignments, which help them develop problem-solving abilities and practical experience beyond theoretical knowledge.</p>
+            <br>
+            <p>The institute also conducts online certification courses, workshops, internships, and add-on programs in association with reputed organizations such as Infosys, TCS, Wipro, and NPTEL-SWAYAM platforms. These opportunities enable students to earn globally recognized certifications while pursuing their degree.</p>
+            <br>
+            <p>Moreover, the Training & Placement Cell ensures that certifications directly contribute to enhancing employability. Recruiters value these credentials, as they reflect a student’s initiative, adaptability, and technical competence. Many students with additional certifications have successfully secured placements in top companies with competitive packages.</p>
+
+            <div class="comment-box">
+                <h3> Leave a Comment</h3>
+                <form class="comment-form">
+                    <input type="text" placeholder="Enter Name">
+                    <input type="email" placeholder="Enter Email">
+                    <textarea rows="5" placeholder="Your Comment"></textarea>
+                    <button type="submit" class="hero-btn">POST COMMENT</button>
+                </form>
+            </div>
+        </div>
+        <div class="blog-right">
+            <h3>Post Categories</h3>
+            <div>
+                <span>Computer Science</span>
+                <span>21</span>
+            </div>
+             <div>
+                <span>Artificial Intelligence & Machine Learning</span>
+                <span>28</span>
+            </div>
+             <div>
+                <span>Data Science</span>
+                <span>15</span>
+            </div>
+             <div>
+                <span>Information Technology</span>
+                <span>34</span>
+            </div>
+            <div>
+                <span>MBA</span>
+                <span>36</span>
+            </div>
+             <div>
+                <span>MCA</span>
+                <span>21</span>
+            </div>
+        </div>
+      </div>
+       
+        <!-------------Footer-------------->
+
+        <section class="footer">
+            <h4>About Us</h4>
+            <p>Vignan’s Nirula is dedicated to providing quality education,<br> innovation, and holistic student development, 
+       empowering graduates for a successful future.</p>
+            <div class="icons">
+               <i class="fa fa-facebook"></i>
+               <i class="fa fa-twitter"></i>
+               <i class="fa fa-instagram"></i>
+               <i class="fa fa-linkedin"></i>  
+            </div>
+            <p>Made with <i class="fa fa-heart-o"></i> By Apurupa Karna</p>
+        </section>
+<!------------JavaScript for Toggle Menu-------->
+        <script>
+            var navlinks = document.getElementById("navLinks");
+            function showMenu(){
+                navLinks.style.right = "0";
+            }
+            function hideMenu(){
+                navLinks.style.right = "-200px";
+            }
+        </script>
+        
+    </body>
+
+</html>
